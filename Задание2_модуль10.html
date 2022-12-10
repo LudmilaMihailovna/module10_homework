@@ -1,0 +1,20 @@
+<!-- Сверстайте кнопку, клик на которую будет выводить данные 
+о размерах экрана с помощью alert.  -->
+
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h1>Задание2_модуль10</h1>
+    <button>Размер экрана</button>
+</body>
+
+<script>
+    const button = document.querySelector('button');
+    
+    const btnClick = () => {
+        alert(`Ширина экрана =  ${window.screen.width}, высота экрана = ${window.screen.height}`)
+    }
+
+    button.addEventListener('click', btnClick);
+</script>

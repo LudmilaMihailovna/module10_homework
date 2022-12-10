@@ -1,0 +1,56 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 700px;
+	height: auto;
+	padding: 10px;
+	box-shadow: 5px 5px 5px 5px rgb(134, 134, 134);
+	margin: 20px auto;
+}
+
+.writeMessage {
+	display: flex;
+	justify-content: space-between;
+}
+
+.inputMessage {
+	border: 3px solid #4284e7;
+    padding: 7px 5px;
+	width: 70%;
+	margin-right: 10px;
+}
+
+.inputMessage:focus {
+	outline: 2px solid #4284e7;
+}
+
+.btn {
+	background-color: #4284e7;
+	padding: 0px 5px;
+	width: 30%;
+	cursor: pointer; 
+    margin-right: 10px;
+}
+
+.btn:hover {
+	background-color: rgb(209, 206, 210);
+}
+
+.pole-chat {
+	margin-top: 3px;
+	height: 400px;
+}
+
+.vivodMessage {
+	border: 3px solid #4284e7;
+	padding: 5px;
+	margin-top: 4px;
+	height: 400px;
+    width: 670px;
+    display: flex;
+	flex-flow: column wrap;
+}
